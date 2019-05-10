@@ -67,6 +67,7 @@ function serve() {
         series( scss )
     );
     watch( '*.html' ) .on( 'change', browserSync .reload );
+    watch( './src/assets/scss/**/*.scss' ) .on( 'change', browserSync .reload );
 }
 
 // Exports
