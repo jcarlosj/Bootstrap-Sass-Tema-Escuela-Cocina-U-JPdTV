@@ -1,27 +1,4 @@
-.header,
-.footer {
-    .navbar-light {
-        .navbar-nav {
-            .nav-link {
-                color: black;
 
-                &.active {
-                    color: #F46669;
-                    border-bottom: 2px solid #F46669;
-                }
-
-                &:hover {
-                    color: #F46669;
-                }
-            }
-        }
-    }   
-}
-
-.copyright {
-    font-size: 1.2rem;
-    font-weight: 700;
-}
-.footer {
-    border-bottom: 10px solid #F46669;
-}
+@import 'variables/colors';
+@import 'navigation/menu-main';
+@import 'site/site';
