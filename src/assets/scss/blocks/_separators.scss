@@ -1,11 +1,26 @@
-.separator::after {
-    background-image: url( '../images/separador.png' );
-    background-repeat: no-repeat;
-    background-position: center;
-    //border: 1px solid orange;
-    content: '';
-    display: block;
-    height: 70px;
-    margin: 0 auto;
-    width: 100%;
+.separator {
+    &::after {
+        background-image: url( '../images/separador.png' );
+        background-repeat: no-repeat;
+        background-position: center;
+        //border: 1px solid orange;
+        content: '';
+        display: block;
+        height: 70px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    &--light::after {
+        background-image: url( '../images/separador_alternativo.png' );
+        background-repeat: no-repeat;
+        background-position: center;
+        //border: 1px solid orange;
+        content: '';
+        display: block;
+        height: 70px;
+        margin: 0 auto;
+        width: 100%;
+    }
 }
+
