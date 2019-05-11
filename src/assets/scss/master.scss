@@ -2,3 +2,33 @@
 @import 'variables/colors';
 @import 'navigation/menu-main';
 @import 'site/site';
+
+body {
+    font-family: Arial, sans-serif;
+    color: #303030;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+.page {
+    .outstanding {
+        &-image {
+            background-size: cover;
+            height: 24rem;
+        }
+        &-image-us {
+            background-image: url( '../images/principal1.jpg' );
+        }
+    }
+    .content {
+        background-color: white;
+        border: 1px solid #E1E1E1;
+        margin-top: -5rem;
+        position: relative;
+        z-index: 100;
+    }    
+}
+
