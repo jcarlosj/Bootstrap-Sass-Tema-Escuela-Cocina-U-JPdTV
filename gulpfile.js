@@ -61,13 +61,13 @@ function serve() {
     watch(
         [
             './node_modules/boostrap/scss/bootstrap.scss',
-            './src/assets/scss/*.scss',
-            './src/assets/js/*.js'
+            './src/assets/scss/**/*.scss'
         ],
         series( scss )
     );
+    watch( './src/assets/js/*.js', series( js ) ) .on( 'change', browserSync .reload );
+    watch( './src/assets/images/**/*.{png,jpg,gif,svg}', series( images ) ) .on( 'change', browserSync .reload );
     watch( '*.html' ) .on( 'change', browserSync .reload );
-    watch( './src/assets/scss/**/*.scss' ) .on( 'change', browserSync .reload );
 }
 
 // Exports
