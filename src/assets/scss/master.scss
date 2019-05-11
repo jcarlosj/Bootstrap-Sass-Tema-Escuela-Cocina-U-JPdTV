@@ -5,6 +5,48 @@
 @import 'site/site';
 @import 'blocks/blocks';
 
+.bg-primary {
+    background-color: #F46669 ! important;
+}
+
+.sidebar {
+    a {
+        color: #F5F5F5;
+
+        &.more-information {
+            color: darken( #F46669, 10% );
+
+            &:hover {
+                color: darken( #F46669, 40% );
+            }
+        }
+        &:hover {
+            color: #F5F5F5;
+        }
+    }
+
+    .card {
+        border: none;
+        &-title {
+            color: black;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+        &--subtitle {
+            color: darken( #F46669, 10% );
+            font-size: .9rem;
+            font-weight: 400;
+        }
+        &-text {
+            font-size: .9rem;
+            line-height: 1.4;
+        }
+        &-footer {
+            font-size: .9rem;
+        }
+    }
+}
+
 .separator--light::after {
     background-image: url( '../images/separador_alternativo.png' );
     background-repeat: no-repeat;
