@@ -5,8 +5,16 @@
 @import 'site/site';
 @import 'blocks/blocks';
 
-.blog {
-
+.separator--light::after {
+    background-image: url( '../images/separador_alternativo.png' );
+    background-repeat: no-repeat;
+    background-position: center;
+    //border: 1px solid orange;
+    content: '';
+    display: block;
+    height: 70px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .entry {
