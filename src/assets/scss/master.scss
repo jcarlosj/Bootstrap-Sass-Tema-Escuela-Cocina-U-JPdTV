@@ -4,3 +4,59 @@
 @import 'navigation/menu-main';
 @import 'site/site';
 @import 'blocks/blocks';
+
+.blog {
+
+}
+
+.entry {
+    a {
+        color: #F46669;
+    }
+    &-content {
+        .meta {
+            p {
+                font-weight: 700;
+            }
+        }
+        span {
+            color: #F46669;
+        }
+    }
+}
+
+.btn-primary {
+    background-color: #F46669;
+    border-color: #F46669;
+
+    &:hover {
+        background-color: darken( #F46669, 10% );
+        border-color: darken( #F46669, 10% );
+    }
+}
+
+a {
+    &.text-light {
+        color: white ! important;
+
+        &:hover,
+        &:focus {
+            color: white ! important;
+        }
+    }
+}
+
+.outstanding {
+    &__phrase {
+        border-left: .2rem solid #F46669;
+        color: #303030;
+        font-size: 1.6rem;
+        font-style: italic;
+        font-weight: 100;
+        &--author {
+            color: darken( #F46669, 10% );
+            display: block;
+            text-align: right;
+        }
+    }
+}
