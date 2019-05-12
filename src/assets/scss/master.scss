@@ -1,24 +1,7 @@
 
 @import 'variables/colors';
+@import 'overrides/bootstrap-classes';
 @import 'elements/elements';
 @import 'navigation/navigation';
 @import 'site/site';
 @import 'blocks/blocks';
-
-.list-group-item-primary,
-.list-group-item-secondary {
-    background-color: lighten( #F46669, 10% );
-}
-
-.page-lesson {
-   .instructor {
-       &__title {
-           color: #303030;
-           font-weight: 700;
-       }
-       &__name {
-           color: #F46669;
-           font-size: 1.5rem;
-       }
-   }
-}
