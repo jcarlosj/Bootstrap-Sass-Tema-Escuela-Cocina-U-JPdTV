@@ -1,18 +1,2 @@
-.page {
-    .outstanding {
-        &-image {
-            background-size: cover;
-            height: 24rem;
-        }
-        &-image-us {
-            background-image: url( '../images/principal1.jpg' );
-        }
-    }
-    .content {
-        background-color: $color__background-content;
-        border: 1px solid $color__border-content;
-        margin-top: -5rem;
-        position: relative;
-        z-index: 100;
-    }    
-}
+@import 'page-general';
+@import 'page-lesson';
