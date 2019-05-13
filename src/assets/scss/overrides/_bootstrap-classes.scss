@@ -1,3 +1,8 @@
+// Backgrounds
+.bg-secondary {
+    background-color: lighten( #303030, 50% ) ! important;
+}
+
 // Buttons
 .btn {
     &-primary {
