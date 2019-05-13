@@ -6,7 +6,7 @@
         }
         &__subtitle {
             font-size: 1.1rem;
-            color: darken( #F46669, 20% );
+            color: darken( $color__text-subtitle, 20% );
             
         }
     }
@@ -16,7 +16,7 @@
             font-weight: 700;
         }
         &__name {
-            color: darken( #F46669, 20% );
+            color: darken( $color__text-name, 20% );
             font-size: 1.5rem;
         }
     }

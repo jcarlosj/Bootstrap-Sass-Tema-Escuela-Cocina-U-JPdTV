@@ -3,7 +3,7 @@
     .navbar-light {
         .navbar-nav {
             .nav-link {
-                color: black;
+                color: $color__link;
 
                 &.active {
                     color: $color__link-active;

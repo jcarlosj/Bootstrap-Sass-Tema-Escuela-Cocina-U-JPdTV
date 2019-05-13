@@ -1,6 +1,6 @@
 // Backgrounds
 .bg-secondary {
-    background-color: lighten( #303030, 50% ) ! important;
+    background-color: lighten( $color__background-bg-secondary, 50% ) ! important;
 }
 
 // Buttons
@@ -16,7 +16,7 @@
 
         &:focus, 
         &.focus {
-            box-shadow: 0 0 0 0.2rem rgb(245, 176, 177);
+            box-shadow: 0 0 0 0.2rem $color__link-focus;
         }
         &.disabled, 
         &:disabled {
@@ -34,7 +34,7 @@
         &:not(:disabled):not(.disabled):active:focus, 
         &:not(:disabled):not(.disabled).active:focus,
         .show > &.dropdown-toggle:focus {
-            box-shadow: 0 0 0 0.2rem rgb(245, 176, 177); 
+            box-shadow: 0 0 0 0.2rem $color__link-focus; 
         }
     }   
 }     
@@ -44,7 +44,7 @@
     &-item {
         &-primary,
         &-secondary {
-            background-color: lighten( #F46669, 10% );
+            background-color: lighten( $color__background-list-group-primary, 10% );
         }
     }
 }
