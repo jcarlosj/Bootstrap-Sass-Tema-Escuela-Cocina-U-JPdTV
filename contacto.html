@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Entrada - Escuela de Cocina</title>
+    <title>Nosotros - Escuela de Cocina</title>
 
     <link rel="stylesheet" href="./dist/assets/css/bootstrap.css">
     <link rel="stylesheet" href="./dist/assets/css/master.css">
@@ -26,10 +26,10 @@
                         <div id="menu-main" class="collapse navbar-collapse justify-content-center justify-content-lg-end">
                             <ul class="menu navbar-nav text-center text-uppercase">
                                 <li><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
-                                <li><a class="nav-link active" href="./blog.html">Blog</a></li>
+                                <li><a class="nav-link" href="./blog.html">Blog</a></li>
                                 <li><a class="nav-link" href="./clases.html">Clases</a></li>
                                 <li><a class="nav-link" href="./galeria.html">Galería</a></li>
-                                <li><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                                <li><a class="nav-link active" href="./contacto.html">Contacto</a></li>
                             </ul>  <!-- #menu-main -->
                         </div>  <!-- .navbar -->
                     </nav>  <!-- .nav -->
@@ -38,29 +38,50 @@
         </div>  <!-- .container -->
     </header>  <!-- .header .py-5 -->
     
-    <div class="page page-us">
+    <div class="page page-contact">
 
         <div class="container">
             <div class="row">
-                <div class="col-12 outstanding-image outstanding-image-us"></div>
+                <div class="col-12 outstanding-image outstanding-image-contact"></div>
             </div><!-- .row -->
         </div><!-- .container -->
 
         <main class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8 px-5 py-3 content content-us">
-                    <h1 class="text-center my-5 separator">Efficitur libero.</h1>
-                    <img class="img-fluid w-100 mb-5" src="./dist/assets/images/clase3.jpg" alt="Clase 3">
-                    <p>Quidem harum quaerat porro dignissimos assumenda minus odio, quis id quos, similique maiores dolorem expedita asperiores saepe. Consectetur deleniti error accusamus voluptatem!</p>
-                    <p>Ipsa molestiae sit tempora nemo ratione rerum ab, iste minima qui velit dicta, quaerat adipisci obcaecati laborum! Tempora explicabo id doloremque ad! Iusto, assumenda neque. Sit aperiam neque doloribus eveniet deleniti consequuntur, ullam in ea suscipit nesciunt, quidem assumenda placeat corrupti labore, autem laudantium.</p>
-                    <p>arcu orci facilisi cras blandit luctus, augue faucibus vestibulum nec integer ligula. Mi pretium taciti vehicula molestie dui eget dapibus montes leo ullamcorper, pulvinar ultricies nunc est rhoncus neque in ante magnis, sapien nibh dignissim justo sodales metus feugiat aenean blandit. Semper torquent bibendum eleifend vivamus tincidunt scelerisque mus cras tempus, posuere congue cursus sociosqu ultrices quisque iaculis vel, eu etiam lectus sed interdum curabitur platea ac. Faucibus justo tincidunt odio litora nec conubia augue lacinia, est pellentesque fringilla gravida lobortis convallis egestas turpis sem, accumsan luctus lectus senectus neque vivamus aliquet.</p>
-                    <p>Hac condimentum aenean nulla penatibus justo quis ridiculus ligula, cubilia praesent feugiat tellus vulputate id natoque, risus magnis est in fringilla ultricies accumsan. Nisi enim feugiat fames dictumst duis aliquam molestie auctor interdum, at scelerisque mauris proin libero porta ullamcorper ligula sed, netus fermentum porttitor pulvinar venenatis nunc potenti montes. Posuere volutpat bibendum vehicula eros facilisi risus felis mus, fames habitasse pretium dui vitae etiam scelerisque primis habitant, mauris curabitur enim ultricies cum vulputate nullam.</p>
-                    <p>Aperiam, dicta. Nulla ullam architecto, eligendi expedita aperiam iure corrupti quasi id pariatur voluptatum libero dolores iusto voluptatibus, reiciendis odio repudiandae accusamus.</p>
+                    <h1 class="text-center my-5 separator">Contacto</h1>
+
+                    <form class="contact">
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tú nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto:</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Asunto a tratar">
+                            </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Tú correo electrónico">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="phone">Teléfono:</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Tú teléfono">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea class="form-control" id="message" placeholder="Escribe tu mensaje" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                    
                 </div><!-- .col-8 -->
             </div><!-- .row -->
         </main><!-- .container -->    
 
-    </div><!-- .page .page-us -->
+    </div><!-- .page .page-contact -->
     
     <footer class="footer">
         <div class="container">
